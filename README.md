@@ -1,4 +1,4 @@
-# Python3 wrapper of CTP
+pip i# Python3 wrapper of CTP
 
 CTP接口的python3封装。使用swig直接转换，接口使用和c++的CTP完全相同。
 
@@ -7,8 +7,8 @@ CTP接口的python3封装。使用swig直接转换，接口使用和c++的CTP完
 1. 按照ctp的动态链接库
 
   ```
-  cp ./api/thostmduserapi.so /usr/lib/libthostmduserapi.so
-  cp ./api/thosttraderapi.so /usr/lib/libthosttraderapi.so
+  cp ./api/thostmduserapi.so /usr/lib/libthostmduserapi_se.so
+  cp ./api/thosttraderapi.so /usr/lib/libthosttraderapi_se.so
   ```
 
 2. 使用pip安装PyCTP
