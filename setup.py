@@ -3,7 +3,7 @@ from distutils.core import Extension, setup
 pyctp_module = Extension(
     '_PyCTP',
     sources=['./PyCTP_wrap.cxx'],
-    libraries=['thostmduserapi', 'thosttraderapi']
+    libraries=['thostmduserapi_se', 'thosttraderapi_se']
 )
 
 setup(

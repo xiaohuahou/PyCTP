@@ -1,5 +1,6 @@
 %module(directors="1") PyCTP
 
+%module char_to_bytes
 %begin %{
 #define SWIG_PYTHON_STRICT_BYTE_CHAR
 %}
